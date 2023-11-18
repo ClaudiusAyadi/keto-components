@@ -1,6 +1,6 @@
-# `PriceCard` Keto Component
+# PriceCard Keto Component
 
-This React component, `PriceCard`, is a versatile and customizable pricing card component designed to showcase different pricing plans for products or services. It is particularly well-suited for use on websites that offer multiple subscription levels or service tiers.
+This React component, **PriceCard**, is a versatile and customizable pricing card component designed to showcase different pricing plans for products or services. It is particularly well-suited for use on websites that offer multiple subscription levels or service tiers.
 
 ## Features
 
@@ -14,7 +14,7 @@ This React component, `PriceCard`, is a versatile and customizable pricing card 
 To use the `PriceCard` component, follow these steps:
 
 1. Clone or download this repo
-2. **Import & Render Component:**
+2. **Import and render component:**
 
    ```javascript
    import PriceCard from "path/to/PriceCard";
@@ -48,9 +48,11 @@ This component is powered by [KetoCSS](https://github.com/ClaudiusAyadi/ketocss)
 
 For more information on KetoCSS, visit [KetoCSS GitHub Repository](https://github.com/ClaudiusAyadi/ketocss).
 
-Contributing
+## Contributing
+
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
 Let's connect on [Twitter](https://twitter.com/ClaudiusAyadi)
 
-License
-This React component is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
+## License
+
+All components in this repo are licensed under the [MIT](https://opensource.org/license/MIT/) License. Feel free to use, modify, and distribute it as needed.
