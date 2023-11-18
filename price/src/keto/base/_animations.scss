@@ -6,15 +6,3 @@
 		transform: skewX(-25deg) translateX(250%);
 	}
 }
-
-@keyframes pulse {
-	0% {
-		box-shadow: 0 0 0 0 var(--shadow-color);
-	}
-	70% {
-		box-shadow: 0 0 0 var(--em-3) transparent;
-	}
-	100% {
-		box-shadow: 0 0 0 0 transparent;
-	}
-}

@@ -17,15 +17,15 @@ $desktop-scale: 1.33; // Unitless
 $mobile-scale: 1.2; // No unit too, please
 
 // FONT FAMILY
-$alt-font: Georgia, "Times New Roman", Times, serif; // For headings
-$base-font: "Familjen Grotesk"; // Body font
+$alt-font: "Effra"; // For headings
+$base-font: "Effra"; // Body font
 
 // PALETTE
 // Enter your project colors below - 3 main colors - don't change the color names, $base, $alt, $action. Only the values.
 
-$action: #cd44ec; // For links and buttons
-$alt: #0000ff; // Secondary color
-$base: #ff005d; // Most used color on your website
+$action: #f5b92c; // For links and buttons
+$alt: #43f7f7; // Secondary color
+$base: #de30fd; // Most used color on your website
 
 // Don't edit these contextual colors - only change the values if you have to
 $danger: #dc3545;
@@ -42,11 +42,11 @@ $font-size: var(--text-m);
 $font-weight: var(--w-400);
 $header-height: 80px;
 $line-height: var(--line-xl);
-$text-color: var(--color);
+$text-color: var(--white);
 
 // HEADINGS (Default h1 - h6 settings)
 $heading-font-family: var(--alt-font);
-$heading-font-weight: var(--w-600);
+$heading-font-weight: var(--w-700);
 
 // INPUTS & BUTTONS
 $input-shadow: var(--shadow-s);
@@ -57,9 +57,9 @@ $padding-inline: 0.25em;
 // BUTTON CLASS - ".btn" (Default settings)
 $btn-cursor-type: pointer;
 $btn-font-size: inherit;
-$btn-font-weight: var(--w-600);
+$btn-font-weight: var(--w-700);
 $btn-min-width: 150px; // Larger values may cause issues
-$btn-padding-block: 0.75em;
+$btn-padding-block: 1em;
 $btn-padding-inline: 1.5em;
 $btn-text-color: inherit;
 $btn-text-decoration: none;

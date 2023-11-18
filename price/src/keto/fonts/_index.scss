@@ -1,15 +1,15 @@
 @font-face {
 	font-display: swap;
-	font-family: "Familjen Grotesk";
+	font-family: "Effra";
 	font-style: normal;
 	font-weight: 400;
-	src: url("./familjen-grotesk-400.woff2") format("woff2");
+	src: url("./effra-regular.woff2") format("woff2"), url("./effra-regular.woff") format(".woff");
 }
 
 @font-face {
 	font-display: swap;
-	font-family: "Familjen Grotesk";
+	font-family: "Effra";
 	font-style: normal;
 	font-weight: 700;
-	src: url("./familjen-grotesk-600.woff2") format("woff2");
+	src: url("./effra-bold.woff2") format("woff2"), url("./effra-bold.woff") format("woff");
 }

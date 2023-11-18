@@ -1,0 +1,123 @@
+@use "../layouts/breakpoints" as *;
+
+.plans {
+	display: grid;
+	gap: var(--space-2xl) var(--space-xl);
+	justify-content: start;
+	align-items: stretch;
+	padding: var(--space-xl);
+
+	@include up($vp-m) {
+		grid-template-columns: var(--grid-3);
+	}
+}
+
+.plan {
+	position: relative;
+	display: grid;
+	padding: var(--space-s);
+	gap: var(--em-3);
+	background-color: var(--bg);
+	color: var(--black);
+	border-radius: var(--radius-s);
+	box-shadow: 0 0 0.75rem var(--black-trans-2), -1.2rem -1.2rem 0 0 var(--card-shadow);
+
+	&--launch {
+		--bg: var(--base-ultra-light);
+		--card-shadow: var(--base-medium);
+		--btn-bg: var(--base);
+		--byline-color: var(--base-dark);
+	}
+
+	&--growth {
+		--bg: var(--alt-ultra-light);
+		--card-shadow: var(--alt-medium);
+		--btn-bg: var(--alt);
+		--byline-color: var(--alt-dark);
+	}
+
+	&--domination {
+		--bg: var(--action-ultra-light);
+		--card-shadow: var(--action-medium);
+		--btn-bg: var(--action);
+		--byline-color: var(--action-dark);
+	}
+
+	.iconify {
+		font-size: inherit;
+		color: var(--byline-color);
+	}
+
+	.title {
+		display: flex;
+		align-items: center;
+		gap: var(--em-3);
+		font-size: var(--text-2xl);
+	}
+
+	.byline {
+		color: var(--byline-color);
+		font-weight: var(--w-700);
+	}
+
+	bdi {
+		display: flex;
+		gap: var(--em-2);
+		align-items: center;
+
+		font-size: var(--text-2xl);
+
+		ins {
+			text-decoration: none;
+			font-size: inherit;
+		}
+
+		del {
+			text-decoration-skip-ink: none;
+			text-underline-offset: -80%;
+			font-size: var(--text-m);
+			font-weight: var(--w-700);
+		}
+	}
+
+	.features {
+		--list: disc;
+		display: grid;
+		gap: var(--space-2xs);
+		padding-inline: var(--space-xs);
+		margin-block-end: var(--em-3);
+
+		::marker {
+			color: var(--byline-color);
+		}
+	}
+
+	li:first-of-type {
+		font-weight: var(--w-700);
+	}
+
+	.btn {
+		--bg: var(--btn-bg);
+		--bg-hover: var(--btn-bg);
+		--border-color: var(--btn-bg);
+
+		// min-block-size: 2.4em;
+		position: relative;
+
+		&:hover {
+			overflow: hidden;
+			&::after {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: var(--white-trans-4);
+				transform-origin: 100% 50%;
+				animation: shine 2.5s forwards;
+			}
+		}
+	}
+}
