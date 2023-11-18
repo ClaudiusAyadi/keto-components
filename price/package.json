@@ -1,0 +1,65 @@
+{
+	"name": "ketocss",
+	"author": "Claudius A.",
+	"version": "1.0.0",
+	"type": "module",
+	"license": "MIT",
+	"description": "KetoCSS | The super-performant, variable-based, mobile-first, React-based, lean atomic design framework!",
+	"homepage": "https://github.com/ClaudiusAyadi/ketoCSS",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ClaudiusAyadi/ketoCSS.git"
+	},
+	"keywords": [
+		"css",
+		"sass",
+		"custom properties",
+		"variables",
+		"utilities",
+		"modern css",
+		"responsive design",
+		"gradients",
+		"flexbox",
+		"grid",
+		"ketoCSS",
+		"adun.studio",
+		"sass-starter-template",
+		"postcss",
+		"postcss-purgecss",
+		"postcss-preset-env",
+		"cssnano"
+	],
+	"bugs": {
+		"url": "https://github.com/ClaudiusAyadi/ketoCSS/issues",
+		"email": "grow@adun.studio"
+	},
+	"browserslist": [
+		"defaults"
+	],
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^5.0.0",
+		"@types/react": "^18.2.37",
+		"@types/react-dom": "^18.2.15",
+		"@vitejs/plugin-react": "^4.2.0",
+		"cssnano": "^6.0.1",
+		"eslint": "^8.53.0",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.4",
+		"postcss": "^8.4.30",
+		"postcss-cli": "^10.1.0",
+		"postcss-preset-env": "^9.1.4",
+		"sass": "^1.69.5",
+		"vite": "^5.0.0"
+	}
+}
